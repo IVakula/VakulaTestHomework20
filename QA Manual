@@ -1,0 +1,40 @@
+Test case 1:
+
+Description:
+This test case verifies the following requirements:
+    • Edit the profile for registered user when the Country field = digits.
+      
+Purpose:
+    •  User can’t edit the profile when the county filed = digits.
+      
+Precondition:
+    • User is registered in the application (Name = Irina, Last name = Vakula, Email = vakula@gmail.com, Password: Vakula111).
+    • User is logged into the account (Email: vakula@gmail.com Password: Vakula111)
+    • User is on the Profile tab of the application.
+    
+
+Steps to reproduce:
+
+1. LMB Click on the Edit profile button 
+
+Expected result:
+    • The Edit profile pop up is displayed
+    • The Name field is displayed.
+    • The Name field is filled with correct data “Irina”.
+    • The Last name field is displayed.
+    • The Last name field is filled with correct data “Vakula”.
+    • The Country field is displayed.
+    • The Country field is empty.
+    • The Birthday field is displayed.
+    • The Birthday field is empty.
+    • The Photo field is displayed.
+    • The Photo field is empty.
+    • The Save button is displayed.
+    • The Save button is disabled.
+    
+2. Enter in the Country field incorrect data (digits): 111111
+
+Expected result:
+    • The error message “Country is invalid” is displayed.
+    • The Save button is disabled.
+
