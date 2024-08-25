@@ -3,10 +3,7 @@ Test case 1:
 Description:
 This test case verifies the following requirements:
     • Edit the profile for registered user when the Country field = digits.
-      
-Purpose:
-    •  User can’t edit the profile when the county filed = digits.
-      
+            
 Precondition:
     • User is registered in the application (Name = Irina, Last name = Vakula, Email = vakula@gmail.com, Password: Vakula111).
     • User is logged into the account (Email: vakula@gmail.com Password: Vakula111)
