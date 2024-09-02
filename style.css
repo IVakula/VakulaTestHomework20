@@ -1,0 +1,115 @@
+body {
+    background-color: #150a12;
+    color: #FFFFFF;
+}
+
+#name {
+    font-size: 120px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 60px;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #150a12;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #bd6c3e;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.column.left {
+    width: 35%;
+}
+
+.column.right {
+    width: 60%;
+}
+ .column.right img {
+    width: 100%;
+    height: auto;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 20px;
+}
+
+.line {
+    border-bottom: 2px solid #ffffff;
+}
+
+#info {
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    padding: 30px;
+}
+
+.web a:visited {
+     color: #ffffff;
+}
+
+.web a:hover {
+    color: #bd6c3e;
+}
+
+.gallery-row{
+    height: 600px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ffffff;
+    float: left;
+    width: 45%;
+    height:100%;
+    object-fit: cover;
+}
+
+div.gallery img {
+    width: 100%;
+    height: calc(100% - 60px);
+    object-fit: cover;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+     	
